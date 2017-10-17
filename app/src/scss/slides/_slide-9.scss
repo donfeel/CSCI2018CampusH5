@@ -1,0 +1,81 @@
+.slide-9 {
+    font-size: .3rem;
+    .center{
+        margin: 0 auto;
+    }
+    .join{
+        margin-top: 1rem;
+        width: 100%;
+        height: 2.3rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-image: url('../images/subtitle.png');
+        opacity: 0.6;
+    }
+    .qrcode{
+        // margin-top: 0rem;
+        animation: shake 3s infinite;
+        display: block;
+        width: 100%;
+        height: 3.5rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-image: url('../images/apply_btn.png');
+    }
+    .slogan{
+        margin-top: .7rem;
+        text-align: center;
+        width: 100%;
+        font-size: .35rem;
+        span{
+            font-size: .25rem;
+            font-weight: 200;
+        }
+    }
+
+    .company{
+        margin-top: .25rem;
+        text-align: center;
+        width: 100%;
+        font-size: .25rem;
+        font-weight: 200;
+    }
+    .location{
+        margin-top: .1rem;
+        text-align: center;
+        width: 100%;
+        font-size: .25rem;
+        font-weight: 200;
+        color: #32ADDD;
+    }
+    .logos{
+        margin-top: .4rem;
+        width: 100%;
+        height: .8rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-image: url('../images/logos.png');
+    }
+    .info{
+        margin-top: .4rem;
+        font-size: .22rem;
+        li{
+            display:inline-block;
+        }
+        span{
+            color: #1ccdea;
+        }
+        li:nth-of-type(1){
+            margin-left: 1rem;
+        }
+        li:nth-of-type(2){
+            margin-left: .1rem;
+        }
+        li:nth-of-type(3){
+            margin-left: .1rem;
+        }
+    }
+}

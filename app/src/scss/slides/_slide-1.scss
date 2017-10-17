@@ -1,0 +1,59 @@
+.slide-1 {
+    // background-color: #e88a63;
+    // background:-webkit-gradient(linear, 0 0, 0 bottom, from(#09112c), to(#2881c5)); 
+    .item-title{
+        width: 100%;
+        // font-size: 1rem;
+        height: 1.25rem;   
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('../images/title.png');
+        margin: 1.5rem auto .5rem;
+    }
+    .item-trip{
+        margin: 1rem auto;
+        float: left;
+        width: 100%;
+        height: 1rem;   
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('../images/trip.png');
+    }
+    .item-subtitle{
+        margin: 1rem auto;
+        float: left;
+        width: 100%;
+        height: 2.75rem;   
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('../images/subtitle.svg');
+    }
+    .item-image {
+        width: 100%;
+        height: 6rem;
+        background-position: center; 
+        background-size: contain;
+        background-repeat: no-repeat;
+        // position: absolute;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        margin-left: -.2rem;
+        background-image: url('../images/all_dream.png');
+    }
+    .item-text {
+        width: 18rem;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        position: absolute;
+        top: 24rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
